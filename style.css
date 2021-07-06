@@ -1,0 +1,219 @@
+
+/*--------------Common Functionality----------
+---------------------------------------------*/
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;  
+    color: #121619;
+  }
+#section {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    margin: 0px 30px 7px 30px;
+}
+a{
+   text-decoration: none;
+   color: #2a435d;
+}
+.Home{
+ background-color: #FFF8EE;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 77px;
+    margin-right: 20px;
+    text-align: start;
+    margin: 48px 75px 0px 40px;
+}
+.half-width img{
+    width: 100%;
+    height: auto;
+}
+.half-width h1{
+    font-family: 'Abril Fatface', serif;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #ff9933;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: start;
+}
+#title{
+    font-family: 'Abril Fatface', serif;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #ff9933;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#title span{
+    color:  #2a435d;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', serif;
+}
+/*--------------Navigation Menu Section-----------
+--------------------------------------------*/
+#logo{
+  width: 30%;
+  float: left;
+}
+#logo img{
+    margin-left: 34px;
+}
+.nav-menu{
+    float: right;
+    width: 60%;
+}
+.nav-menu ul li{
+    display: inline-block;
+    padding: 8px;
+    margin-left: 50px;
+}
+/*--------------Home Section------------------
+--------------------------------------------*/
+.half-width span{
+    font-size: 55px;
+    font-weight: 900;
+    color: #2a435d;
+}
+.half-width p{
+   text-align: start;
+   margin-bottom: 30px;
+}
+.half-width a{
+    text-decoration: none;
+    color: #f9fcfff5;
+    font-size: 14px;
+}
+#Order-Now-btn, .Menu-button{
+    background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%);
+    padding: 8px 12px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: inline-block;
+  }
+#Order-Now-btn{
+    margin-top: 30px;
+}
+/*--------------MY RECIPIES Section----------
+--------------------------------------------*/
+.Recipies{
+    background-image:url("img/homebg.png");
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.Recipies-header {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.Recipies-header p {
+    margin: auto;
+    width: 50%;
+}
+.My-Recipies{
+    display: inline-block;
+    width: 24%;
+    box-shadow: 0px 4px 12px 4px #cac7c7eb;
+    border-radius: 5px;
+    margin: 0px 60px 25px 30px;
+    background: #ffffff;
+}
+.Recipies-body {
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.Recipies-body h4{
+    color: #2a435d;
+    font-size: 18px;
+}
+.recipies-img img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*--------------Follower Section------------
+--------------------------------------------*/
+.follower{
+    width: 87%;
+    box-shadow: -1px 9px 34px 3px #cac7c7eb;
+    margin: 32px 0px 40px 28px;
+    border-radius: 10px;
+}
+.social-follower{
+    display: inline-block;
+    margin: 0px 44px;
+    text-align: center;
+    padding: 24px 41px 13px 70px;
+    margin-bottom: 30px;
+}
+.social-follower h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+/*------------------Contact Section----------
+---------------------------------------------*/
+.Contact-section{
+    background-image:url("img/delivery-img.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-form{
+  text-align: center;
+  display: inline-block;
+  width: 88%;
+}
+.Contact-box input{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+#tahle-title{
+    color: #2a435d;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', serif;
+}
+#textarea{
+    width: 100%;margin: 10px;padding: 10px;
+}
+#message-btn{
+    width: 105%;
+    background: #fb934a;
+    color: #1b1313;
+    border: 1px solid #2c344254;
+}
+/*------------------------Footer Section----------
+--------------------------------------------------*/
+.footer{
+    background: #FFF8EE;
+    padding: 50px;
+}
+.footer-items{
+    display: inline-block;
+    width: 94%;
+    text-align: center;
+    color: #0d0d0e;
+}
+.footer-items span{
+    padding: 19px;
+    margin: 2px 25px;
+}
